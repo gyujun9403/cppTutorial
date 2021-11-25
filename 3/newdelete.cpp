@@ -6,7 +6,6 @@ int &make_new(int num) {
     return rt;
 }
 
-
 int main () {
     int result;
     result = make_new(42);
