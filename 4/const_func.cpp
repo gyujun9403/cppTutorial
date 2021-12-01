@@ -17,5 +17,6 @@ int TestClass::getVar1() const {
     // this->var1 = 42;
     // 식이 수정할 수 있는 lvalue여야 합니다.C/C++(137)
     this->var2 = 42;
+    // var2은 mutable이므로, 수정 가능
     return this->var1;
 }
