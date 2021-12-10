@@ -1,2 +1,8 @@
+!*.cpp
+!*.h
+!*.hpp
 .vscode
+.idea
 *.exe
+*.out
+CMake*
